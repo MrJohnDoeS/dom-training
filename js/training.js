@@ -20,14 +20,35 @@ function getHideThisText() {
 /* ------------------------------------ */
 /* --- Exercice 2 --- */
 
-window.scrool(left)
+const whereIAM = window.scrollY;
+console.log(`La fenêtre est scrollée de ${whereIAM} pixels`);
+console.log(whereIAM);
+
+
+
 
 /* ------------------------------------ */
 /* --- Exercice 3 --- */
 
 
+let animalList = document.getElementById("ex3-animals");
+let animalBtnLi = document.getElementById("button-li");
+// console.log(animalBtnLi, animalList);
+animalBtnLi.addEventListener("click", function () {
+    animalList.appendChild(animalList.firstElementChild)
+}
+)
+
+
+
+
+
+
 /* ------------------------------------ */
 /* --- Exercice 4 --- */
+
+
+
 
 
 /* ------------------------------------ */
